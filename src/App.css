@@ -1,0 +1,87 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Chat App Container */
+div[style] {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  background-color: #0078d7;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Textarea (User Input) */
+textarea {
+  align-items: center;
+  padding: 10px;
+  width: calc(100% - 20px);
+  margin: 10px;
+  margin-right: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Response Box (Message Display) */
+pre {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+/* Scrollbar Styling */
+pre::-webkit-scrollbar {
+  width: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-track {
+  background-color: #f4f4f4;
+}
