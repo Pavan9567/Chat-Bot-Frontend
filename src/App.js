@@ -20,7 +20,7 @@ const App = () => {
       <h1>AI Chatbot</h1>
       <textarea rows="4" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Type your query here..."/>
       <button onClick={handleQuery} style={{ padding: "10px 20px", cursor: "pointer" }}>
-        Submit
+        Send
       </button>
       <pre style={{ marginTop: "20px", background: "#f4f4f4", padding: "10px" }}>{response}</pre>
     </div>
